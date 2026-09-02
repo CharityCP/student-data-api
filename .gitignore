@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+.dev.vars
+public/data/*.csv
+!public/data/.gitkeep
+npm-debug.log*
+.DS_Store

@@ -1,0 +1,24 @@
+{
+  "name": "student-data-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A student-friendly CSV REST API with optional Cloudflare Workers AI chat.",
+  "scripts": {
+    "build": "node scripts/copy-data.mjs",
+    "dev": "npm run build && wrangler dev --config wrangler.local.jsonc",
+    "predeploy": "npm run build",
+    "deploy": "wrangler deploy",
+    "test": "node --test",
+    "check": "npm test && npm run build && wrangler deploy --dry-run"
+  },
+  "dependencies": {
+    "papaparse": "^5.5.3"
+  },
+  "devDependencies": {
+    "wrangler": "^4.33.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

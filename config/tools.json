@@ -1,0 +1,10 @@
+{
+  "query_dataset": {
+    "enabled": true,
+    "default_limit": 10,
+    "max_limit": 50,
+    "allow_search": true,
+    "allow_offset": true,
+    "max_calls": 2
+  }
+}

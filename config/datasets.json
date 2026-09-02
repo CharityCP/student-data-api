@@ -1,0 +1,14 @@
+{
+  "cats": {
+    "file": "data/cats.csv",
+    "description": "Cat breeds, origins, temperaments, life spans, weights, and images"
+  },
+  "board-games": {
+    "file": "data/board-games.csv",
+    "description": "Board games with player counts, play times, categories, mechanics, and designers"
+  },
+  "viral-50-usa": {
+    "file": "data/viral-50-usa.csv",
+    "description": "A sample Viral 50 USA music chart with track positions and artists"
+  }
+}

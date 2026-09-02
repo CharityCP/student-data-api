@@ -1,0 +1,6 @@
+{
+  "provider": "cloudflare",
+  "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  "temperature": 0.2,
+  "max_tokens": 500
+}
